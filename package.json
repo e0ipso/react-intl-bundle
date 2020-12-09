@@ -1,0 +1,25 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "dist/formatted-message-bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rm dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17"
+  },
+  "dependencies": {
+    "react-intl": "^5"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
